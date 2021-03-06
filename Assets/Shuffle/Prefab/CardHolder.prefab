@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2162939542020529809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162939542020529808}
+  - component: {fileID: 2162939542020529814}
+  - component: {fileID: 2162939542020529815}
+  - component: {fileID: 2162939542020529813}
+  m_Layer: 5
+  m_Name: CardHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2162939542020529808
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162939542020529809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.17886901}
+  m_AnchorMax: {x: 1, y: 0.39800003}
+  m_AnchoredPosition: {x: 0, y: -0.19999695}
+  m_SizeDelta: {x: 0, y: -0.8692322}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2162939542020529814
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162939542020529809}
+  m_CullTransparentMesh: 0
+--- !u!114 &2162939542020529815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162939542020529809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: -10
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+--- !u!114 &2162939542020529813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162939542020529809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ff3c21a534fe8449d1cfd0789f7576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardSprites:
+  - {fileID: -3768554878101445094, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: 4612692359556077655, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: 5847823384103666047, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: 4561927942667011120, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: -4576827554370866473, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: 2088807539072556999, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: -7178018650657521972, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: -2059369457603189278, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: 7284322915386889605, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: 8809529869058743422, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: 5121054244861222575, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: -9006591848522944908, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: -8717172142384634098, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  - {fileID: 4779461794505380361, guid: 50310e4ca64f49d4aa192683b619c8fc, type: 3}
+  cardHolder: {fileID: 2162939542020529809}
+  cardPrefab: {fileID: 3386273901932867115, guid: 0da581cbcc0beaa4787388e928f5e553,
+    type: 3}
+  dummyCard: {fileID: 3386273901932867115, guid: f7eff41544039e04b897eb21ed8f6c91,
+    type: 3}
+  parentHolder: {fileID: 0}

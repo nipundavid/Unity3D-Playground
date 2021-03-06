@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - PostProcessing
   - 
   - 
   - 
@@ -40,4 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Canvas
+    uniqueID: 3258614249
     locked: 0
