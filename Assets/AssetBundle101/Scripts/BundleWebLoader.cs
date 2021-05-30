@@ -21,7 +21,7 @@ public class BundleWebLoader : MonoBehaviour
                 Debug.LogError("Failed to load AssetBundle!");
                 yield break;
             }
-            Instantiate(remoteAssetBundle.LoadAsset(assetName));
+            GameObject a = (GameObject)Instantiate(remoteAssetBundle.LoadAsset(assetName));
             remoteAssetBundle.Unload(false);
         }
     }

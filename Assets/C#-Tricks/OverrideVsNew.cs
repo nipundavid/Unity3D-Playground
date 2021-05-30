@@ -2,6 +2,10 @@
 using UnityEngine;
 public  class Base
 {
+    public Base()
+    {
+        Debug.Log("Base constructor called");
+    }
     public virtual void Printhello()
     {
         Debug.Log("Base says - Hello");
@@ -19,6 +23,11 @@ public  class Base
 
 public class Derived : Base
 {
+
+    public Derived()
+    {
+        Debug.Log("Derived Constructor called");
+    }
 
     public override void Printhello()
     {
