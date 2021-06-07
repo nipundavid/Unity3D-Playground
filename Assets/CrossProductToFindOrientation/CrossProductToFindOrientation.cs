@@ -23,7 +23,7 @@ namespace CrossProductToFindOrientation
 
 
                 Handles.color = Color.white;
-                Handles.DrawAAPolyLine(headPos, hitPos);
+                Handles.DrawAAPolyLine(EditorGUIUtility.whiteTexture,5,headPos, hitPos);
 
                 Handles.color = Color.green;
                 DrawRay(hitPos, up);
