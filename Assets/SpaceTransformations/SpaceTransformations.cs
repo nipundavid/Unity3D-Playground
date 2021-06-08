@@ -20,12 +20,13 @@ namespace SpaceTransformations
             DrawBasisVector(objPos, right, up);
             DrawBasisVector(Vector3.zero, Vector3.right, Vector3.up);
 
+            // takes world x&y and covert them into local x&y in a given space
             Vector2 LocalToWorld(Vector2 localPt)
             {
                 Vector2 worldOffset = right * localPt.x + up * localPt.y;
                 return (Vector2)transform.position + worldOffset;
             }
-
+            // takes local x&y and covert them into parent space x&y
             Vector2 WorldToLocal(Vector2 worldPoint)
             {
                 Vector2 relPoint = WorldPoint - objPos;

@@ -37,10 +37,9 @@ namespace CrossProductToFindOrientation
             else
             {
                 Handles.color = Color.red;
-                DrawRay(headPos, headPos+lookDir);
+                Handles.DrawAAPolyLine(EditorGUIUtility.whiteTexture, 5, headPos, headPos + lookDir);
+
             }
         }
-
-
     }
 }
