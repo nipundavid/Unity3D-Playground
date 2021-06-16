@@ -50,7 +50,6 @@ namespace VectorRangeAndLookAt
             Gizmos.DrawLine(target.position, target.position + dirFromTargetToPlayer);
 
             #endregion
-
         }
     }
 #endif
